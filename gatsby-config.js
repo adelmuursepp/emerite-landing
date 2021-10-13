@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Emerite – Web Development Agency',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Emerite. Web Development and Design Agency. Landing websites for businesses and marketing. Strong presence on the internet.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -31,6 +31,14 @@ module.exports = {
     },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+          fonts: [
+              `poppins:300,400,500,600,700`       
+          ], display: 'swap'       
+      }
+    },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
