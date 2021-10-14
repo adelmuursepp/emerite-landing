@@ -7,7 +7,7 @@ image: /img/background.png
 heading: Emerite 
 subheading: Web Development and Design
 mainpitch:
-  title: Why Kaldi
+  title: Emerite Is The Best
   description: >
     Kaldi is the coffee store for everyone who believes that great coffee
     shouldn't just taste good, it should do good too. We source all of our beans
