@@ -1,9 +1,7 @@
 ---
 templateKey: index-page
-
 title: Great coffee with a conscience
 image: /img/background.png
-
 heading: Emerite 
 subheading: Web Development and Design
 mainpitch:
