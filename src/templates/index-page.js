@@ -18,13 +18,15 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      className="full-width-image margin-top-0 "
+      className="full-width-image margin-top-4 d-flex w-100"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
+        backgroundPosition: `center`,
         backgroundAttachment: `fixed`,
+        padding: `0`,
+        margin: `0`,
       }}
     >
       <div
@@ -44,13 +46,14 @@ export const IndexPageTemplate = ({
             color: 'black',
             lineHeight: '2',
             padding: '0.25em',
-            fontSize: '5em'
+            fontSize: '3rem',
+            marginTop: '40vh',
           }}
         >
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             fontFamily: 'Roboto',
             color: 'black',
