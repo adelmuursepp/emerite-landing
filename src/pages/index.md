@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Emerite
 image: /img/home-jumbotron.jpg
 heading: Emerite 
 subheading: Web Development and Design
